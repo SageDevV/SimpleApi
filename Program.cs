@@ -27,6 +27,8 @@ app.MapGet("/api/info", () => new
     ambiente = app.Environment.EnvironmentName
 });
 
+//teste
+
 app.MapGet("/health", () => Results.Ok("ok"));
 
 app.Run();
