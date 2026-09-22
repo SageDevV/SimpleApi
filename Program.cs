@@ -29,6 +29,8 @@ app.MapGet("/api/info", () => new
 
 //teste
 
+//Ola mundo
+
 app.MapGet("/health", () => Results.Ok("ok"));
 
 app.Run();
